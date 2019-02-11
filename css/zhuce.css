@@ -1,0 +1,155 @@
+#zhucebg{
+    z-index: 1;
+    filter: blur(3px);
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#fugai{
+       z-index: 2;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+#content{
+    width: 30%;
+    height: 540px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 5%;
+    z-index: 200;
+    position:fixed;
+    top:48px;
+    left: 35%;
+}
+
+ .one{
+    width: 10%;
+    height: 130px;
+    position: absolute;
+    left: 24%;
+    top: 180px;
+  background-size: 100% 100%;
+}
+
+ .two{
+    width: 10%;
+    height: 130px;
+    position: absolute;
+    left: 66%;
+    top: 180px;
+   background-size: 100% 100%;
+}
+
+#content form{
+    width: 100%;
+    height: 100%;
+}
+
+.zhuce {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.zhuce::before{
+    content: "";
+    position: absolute;
+    left: 3%;
+    top:50%;
+    width: 30%;
+    height: 2px;
+    background-color: darkslategray;
+}
+
+.zhuce::after{
+    content: "";
+    position: absolute;
+    right: 3%;
+    top:50%;
+    width: 30%;
+    height: 2px;
+    background-color: darkslategray;
+}
+
+#content form span{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+#content form .error{
+    font-size: 0.7em;
+    color: red;
+    margin-left: 1%;
+}
+
+#content input{
+   width: 60%;
+    height: 30px;
+    margin: 13px 0;
+    border-radius: 15px;
+    outline:none;
+
+}
+
+#content .fileSelect{
+    width: 130px;
+    height: 20px;
+    margin: 0 0;
+    outline:none;
+    font-size: 0.5em;
+}
+
+#content .submit{
+    margin: 15px 17%;
+}
+
+#content .touxiang{
+    width: 100%;
+    height: 175px;
+}
+
+#content .touxiang .selected{
+    border: 1px solid goldenrod;
+}
+
+#content .touxiang p{
+    width: 100%;
+    height: 30px;
+    font-size: 1.5em;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+#content .touxiang p span{
+    font-size: 0.6em;
+     font-weight:normal;
+     color: red;
+     margin-left: 0px;
+}
+
+#content .touxiang ul {
+    width: 100%;
+    height: 145px;
+    margin-top: 5px;
+}
+
+#content .touxiang ul li{
+    float: left;
+    width: 20%;
+    height: 70px;;
+    margin-left: 3%;
+    margin-bottom: 5px;
+}
+#content .touxiang ul li img{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,19 @@
+#header {
+            background-image: url("../img/beijingyanse/huangse.jpg");
+      
+        }
+ .mainNav {
+  
+        background-color: #F5DEB3;
+    }
+#jnCatalog h2{
+    background-color: #F5DEB3;
+}
+.jnCatainfo{ 
+    border:3px solid #F5DEB3; 
+    border-style: none solid solid none;
+}
+
+.selectColor a{
+    color:#F5DEB3 !important;
+}

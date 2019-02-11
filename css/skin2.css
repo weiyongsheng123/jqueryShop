@@ -1,0 +1,18 @@
+#header {
+            background-image: url("../img/beijingyanse/lanse.gif");
+      
+        }
+ .mainNav {
+  
+        background-color:deepskyblue;
+    }
+#jnCatalog h2{
+    background-color: deepskyblue;
+}
+.jnCatainfo{ 
+    border:3px solid deepskyblue; 
+    border-style: none solid solid none;
+}
+.selectColor a{
+    color:deepskyblue !important;
+}

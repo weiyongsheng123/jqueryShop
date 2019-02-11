@@ -1,0 +1,19 @@
+#header {
+            background-image: url("../img/beijingyanse/lvse.gif");
+      
+        }
+ .mainNav {
+  
+        background-color: springgreen;
+    }
+#jnCatalog h2{
+    background-color: springgreen;
+}
+.jnCatainfo{ 
+    border:3px solid springgreen; 
+    border-style: none solid solid none;
+}
+
+.selectColor a{
+    color:springgreen !important;
+}

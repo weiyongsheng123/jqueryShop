@@ -1,0 +1,19 @@
+#header {
+            background-image: url("../img/beijingyanse/hongse.gif");
+      
+        }
+ .mainNav {
+  
+        background-color: darkred;
+    }
+#jnCatalog h2{
+    background-color: darkred;
+}
+.jnCatainfo{ 
+    border:3px solid darkred; 
+    border-style: none solid solid none;
+}
+
+.selectColor a{
+    color:darkred !important;
+}

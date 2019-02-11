@@ -1,0 +1,211 @@
+#header{
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    position: relative
+}
+#header .logo{
+    margin-top:10px;
+    margin-left: 5%; 
+    line-height: 80px;
+    float: left;
+}
+#header .logo img{
+       width: 330px;
+       height: 100px;
+}
+#header span{
+    font-size: 2.8em;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top:3%;
+    width: 19%;
+    height: 50px;
+     float: left;
+}
+
+#header .phone{
+  position:absolute;
+  right: 50px;
+  top:20px;
+  width: 130px;
+  display: flex;
+  text-decoration: none
+}
+
+#header .phone img{
+  width: 60px;
+  height: 80px;
+  float: left
+}
+
+#header .phone span{
+   float: left;
+   font-size:13px;
+   flex: 1;
+   margin-top: 10px;
+   animation: changeColor 12s infinite;
+   animation-timing-function: linear;
+}
+
+#content{
+    clear: both;
+    width: 100%;
+    height: 450px;
+    background:url("../img/denglujiemian.jpg") no-repeat ;
+    background-size: 70% 450px;
+    background-position-x: 2%;
+    overflow: hidden;
+    position: relative;
+}
+
+#content .textId{
+  position: absolute;
+  right: 13%;
+  top: 20px;
+  width: 12%;
+  height: 60px;
+  border: 1px solid #666;
+  padding-left: 2px
+}
+
+#content .login{
+    width: 25%;
+    height: 300px;
+    margin-top: 7%;
+
+    margin-left: 68%;
+    border: 1px solid #8d8d8d; 
+    border-radius: 15px;
+}
+
+.login .xian{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.login .xian::before{
+    content: "";
+    position: absolute;
+    left: 3%;
+    top:50%;
+    width: 30%;
+    height: 2px;
+    background-color: darkslategray;
+}
+
+.login .xian::after{
+    content: "";
+    position: absolute;
+    right: 3%;
+    top:50%;
+    width: 30%;
+    height: 2px;
+    background-color: darkslategray;
+}
+
+.login .form{
+    width: 100%;
+    height: 195px;
+    position: relative;
+}
+
+.login .form span{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.login .form p{
+    position: absolute;
+    left: 30%;
+    top:115px;
+     font-size: 1.2em;
+     color: red;
+}
+
+.login .form input{
+    width: 60%;
+    height: 30px;
+    margin: 15px 0;
+    border-radius: 15px;
+    outline:none;
+}
+
+#sumbit{
+    margin: 11px 19%;
+    text-align: center;
+    background-color: dodgerblue;
+    font-size: 1.5em;
+    color: ghostwhite;
+}
+
+.login .zhuce{
+    width: 100%;
+    height: 30px;
+    background-color: #d7cdcd;
+    border-radius: 0 0 15px 15px;
+}
+
+.login .zhuce img{
+    margin-left: 70%;
+}
+
+.login .zhuce a{
+    margin-left: 2%;
+    font-size: 1.2em;
+    vertical-align:middle;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 15px;
+    background-color: darkgrey;
+      text-align: right;
+}
+#footer i{
+    width: 100%;
+    height: 100%;
+  
+    font-size: 3px;
+}
+
+@keyframes changeColor {
+  0% {
+    color: red
+  }
+  15% {
+   color: orange
+  }
+  30% {
+    color: yellow
+  }
+  45% {
+    color: green
+  }
+  60% {
+    color: mediumspringgreen
+  }
+  75% {
+    color: blue
+  }
+  90% {
+    color: purple
+  }
+  100% {
+    color: pink
+  }
+}
+
+
+
+

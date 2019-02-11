@@ -1,0 +1,19 @@
+#header {
+            background-image: url("../img/beijingyanse/fense.jpg");
+      
+        }
+ .mainNav {
+  
+        background-color: hotpink;
+    }
+#jnCatalog h2{
+    background-color: hotpink;
+}
+.jnCatainfo{ 
+    border:3px solid hotpink; 
+    border-style: none solid solid none;
+}
+
+.selectColor a{
+    color:hotpink !important;
+}

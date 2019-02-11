@@ -1,0 +1,19 @@
+#header {
+            background-image: url("../img/beijingyanse/huise.gif");
+      
+        }
+ .mainNav {
+  
+        background-color: #4A4A4A;
+    }
+#jnCatalog h2{
+    background-color: #6E6E6E;
+}
+.jnCatainfo{ 
+    border:3px solid #6E6E6E; 
+    border-style: none solid solid none;
+}
+
+.selectColor a{
+    color:#6E6E6E !important;
+}

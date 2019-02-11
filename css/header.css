@@ -1,0 +1,279 @@
+  #header {
+
+            background-repeat: repeat;
+            background-origin: 0 0;
+            background-color: #FFFFFF;
+            height: 105px;
+            width: 100%;
+     
+        }
+        
+        #header .contWidth {
+            position: relative;
+            height: 105px;
+            width: 100%;
+            margin: 0 auto;
+            z-index: 100;
+        }
+        
+#header .contWidth .changeskin{
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+            border: 1px solid #f9cce2;
+            box-shadow: 0px 0px 20px 3px #f9cce2 inset;
+          position: absolute;
+          right: 35px;
+          top: 35px;
+          text-align: center;
+          vertical-align: middle;
+          font-weight: bold;
+          color: white;
+}
+
+        #header .logo {
+            float: left;
+            margin: 0 0 0 10px;
+            color: #FFF;
+            line-height: 80px;
+        }
+        
+        #header .logo img{
+             width: 230px;
+              height: 100px;
+                 margin-top:-15px;
+        }
+
+        #header .search {
+            position: absolute;
+            left: 288px;
+            top: 20px;
+        }
+        
+          #inputSearch{
+            width:270px;
+            height: 30px;
+            font-size: 15px;
+        }
+        #header .search img{
+                  position: absolute;
+                  top: 0px;
+                  right: 0px;
+                width: 30px;
+                height: 30px;
+         }
+
+#header .search img:hover{
+      width: 33px;
+                height: 33px;
+}
+
+         #header .information{
+             position: absolute;
+              left: 66%;
+              width: 24%;
+             height: 70%;
+             overflow: hidden;
+
+         }
+
+         #header .information .linkToindex{
+             float: left;
+             width: 100%;
+             height: 100%;
+             line-height: 100%;
+             vertical-align: middle;
+             text-decoration: none;
+             cursor: pointer;
+         }
+
+         #header .information .linkToindex:hover{
+                color:dimgray;
+         }
+
+         #header .information .linkToindex img{
+             width: 20%;
+             height: 80%;
+             border: 1px solid goldenrod;
+             border-radius: 50%;
+         }
+
+         #header .information .linkToindex span{
+margin-left: 2%;
+             font-size: 1.8em;
+         }
+ 
+        #skin {
+            float: right;
+            margin: 10px;
+            padding: 4px;
+            width: 120px;
+        }
+        
+        #skin li {
+            margin-right: 4px;
+            width: 15px;
+            height: 15px;
+            overflow: hidden;
+            display: block;
+            cursor: pointer;
+            float: left;
+            text-indent: -9999px;
+            background-image: url("../img/licolor.png")
+        }
+
+
+        #skin1 {
+            background-position: 0px 0px;
+        }
+        
+        #skin2 {
+            background-position: -18px 0px;
+        }
+        
+        #skin3 {
+            background-position: -36px 0px;
+        }
+        
+        #skin4 {
+            background-position: -58px 0px;
+        }
+        
+        #skin5 {
+            background-position: -77px 0px;
+        }
+        
+        #skin6 {
+            background-position: -96px 0px;
+        }
+        
+        #skin1.selected {
+            background-position: 0px 15px;
+        }
+        
+        #skin2.selected {
+            background-position: -18px 15px;
+        }
+        
+        #skin3.selected {
+            background-position: -36px 15px;
+        }
+        
+        #skin4.selected {
+            background-position: -58px 15px;
+        }
+        
+        #skin5.selected {
+            background-position: -77px 15px;
+        }
+        
+        #skin6.selected {
+            background-position: -96px 15px;
+        }
+
+    .mainNav {
+        position: absolute;
+        top:68px; 
+        left: 0px;
+        height: 37px;
+        line-height: 37px;
+        width: 100%;
+        z-index: 100;
+    }
+
+    .mainNav .nav{
+        display: inline-block;
+        margin-left: 25px;
+        margin-right:140px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .mainNav ul li{
+        display: inline-block;
+        margin-right:14px;
+        position: relative;
+        z-index: 100;
+    }
+
+    .mainNav ul li a{
+        display: block;
+        padding: 0 8px;
+        font-weight: 700;
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .jnNav{
+        background-color: #FFFFFF;
+        border: 1px solid #B1B1B1;
+        border-top:0;
+        overflow: hidden;
+        position: absolute;
+        top:37px;
+        left: 0;
+        width:474px;
+        z-index: 1001;
+       display: none;
+    }
+    
+    .jnNav .subitem{
+        float: left;
+        height: auto !important;
+        min-height: 70px;
+        padding: 10px 12px;
+        width: 450px;
+        z-index: 1101;
+    }
+
+    .jnNav .subitem dl{
+        border-top:1px dashed #C4C4C4;
+        overflow: hidden;
+        padding: 8px 0;
+        float:left; 
+        height: 80px;
+    }
+
+    .jnNav .subitem dt{
+        float: left;
+        font-weight: bold;
+        font-size: 1.3em;
+        line-height: 15px;
+        padding: 4px 3px;
+        text-align: center;
+        width:76px;
+        height: 100%;
+    }
+
+    .jnNav .subitem dd{
+        float: left;
+        overflow: hidden;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: auto;
+        font-size: 1.2em;
+        line-height: 30px;
+    }
+
+     .jnNav .subitem dd:hover{
+       cursor: pointer;
+       color: deepskyblue;
+    }
+
+    .jnNav .subitem span{
+         float: left;
+          font-size: 1.2em;
+        line-height: 30px;
+    }
+
+     #loading {
+            display: none;
+            position: absolute;
+           left: 40%;
+           top:20%;
+           z-index: 1000;
+        }
+     #loading img{
+            width: 200px;
+            height: 200px;
+        }

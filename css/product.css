@@ -1,0 +1,263 @@
+
+#jnProitem{
+    width: 30%;
+    height: 560px;
+   float: left;
+   margin-left: 1%;
+   margin-right: 2%;
+    position: relative;
+   }
+
+#jnProitem .jqzoomWrap{
+    border: 1px solid #BBBBBB;
+    cursor: pointer;
+    float: left;
+    padding: 0;
+    position: relative;
+     width: 100%;
+    height: 410px;
+    overflow: hidden;
+}
+
+#jnProitem .jqzoomWrap a{
+     width: 100%;
+    height: 100%;
+}
+
+.jqzoomWrap img{
+    width: 100%;
+    height: 100%;
+}
+
+#jnProitem .showBig{
+    width: 100%;
+    height: 30px;
+     clear: both;
+     padding-top:10px;
+     padding-bottom:4px;
+}
+
+#jnProitem span{
+   cursor: pointer;
+    display: block;
+ padding: 2px 1px;
+    text-align: center;
+    width: 24%;
+    border:1px solid lightslategrey;
+    border-radius: 3px;
+    margin-left:150px;
+}
+
+#jnProitem span img{
+    float: left;
+    margin-top: 2px;
+}
+
+#jnProitem ul.imgList{
+    width: 100%;
+}
+
+#jnProitem ul.imgList li{
+    float: left;
+    margin-right: 10px;
+    width: 22%;
+    height: 100px;
+}
+
+#jnProitem ul.imgList li img{
+width: 100%;
+height:100%;
+padding: 1px;
+background: #EEE;
+cursor: pointer;
+}
+
+#jnProitem ul.imgList li img:hover{
+    padding: 1px;
+    background: #999;
+}
+
+#jnProitem ul.imgList li.selected{
+    border: 1px solid lightgreen;
+}
+
+.tab{
+    padding-top: 7px;
+    clear: both;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tab .tab_menu{
+    clear: both;
+}
+
+.tab .tab_menu li{
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    list-style: none;
+    padding: 1px 6px;
+    margin-right: 4px;
+    background:#F1F1F1;
+    border: 1px solid #898989;
+    border-bottom: none;
+}
+
+.tab .tab_menu li:hover{
+    background-color: #DFDFDF;
+}
+
+.tab .tab_menu li.selected{
+    color: #FFF;
+    background-color: #6D84B4;
+}
+
+.tab .tab_box{
+    clear: both;
+    border: 1px solid #898989;
+   min-height: 80px;
+   max-height: 180px;
+    overflow: auto;
+}
+
+.tab .hide{
+    display: none;
+}
+
+#jnDetails{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+   font-size: 1.2em;
+}
+
+#jnDetails h2{
+    font-size: 1.5em;
+    width: 100%;
+    height: auto;
+    color: deepskyblue;
+}
+
+#jnDetails .descript{
+    line-height: 25px;
+    text-indent: 25px;
+}
+
+#jnDetails  .saleMoney{
+    font-size: 1.2em;
+}
+
+#jnDetails  .saleMoney span{
+    text-decoration: line-through;
+}
+
+#jnDetails  .cheapMoney span{
+    font-size: 30px;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
+#jnDetails .chooseColor{
+    margin: 5px 0;
+    width: 100%;
+    height: 30px;
+}
+
+.chooseColor .selected{
+    border: 1px solid black;
+}
+
+.chooseColor ul{
+ width: 100%;
+    height: 30px;
+}
+
+.chooseColor ul li{
+    width: 10%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+    cursor: pointer;
+}
+
+.chooseColor ul li img{
+    width: 100%;height: 100%;
+}
+
+#jnDetails .chooseSize{
+line-height: 25px;
+height: 60px;
+}
+
+#jnDetails .chooseSize ul{
+    line-height: 40px;
+height: 40px;
+margin-top:-5px;
+}
+
+#jnDetails .chooseSize ul li{
+float: left;
+margin-left: 5px;
+width: 45px;
+height: 20px;
+}
+
+#jnDetails .chooseSize ul li button {
+   width: 40px;
+height: 20px; 
+ text-align:center;
+ padding:0px;
+ line-height: 10px;
+}
+
+.chooseSize .selected{
+    background-color: darkslategray;
+}
+
+#jnDetails .number{
+height: 25px;
+line-height: 25px;
+margin-top:3px;
+}
+
+#jnDetails .total{
+    margin-top:5px;
+}
+
+#jnDetails .total span{
+      color: cornflowerblue;
+}
+
+#jnDetails .score{
+    width: 60%;
+    height: 30px;
+     display: inline-block;
+     margin-top: 5px;
+
+}
+
+#jnDetails .score ul{
+  padding-top: 5px;
+}
+
+#jnDetails .score ul li{
+    float: left;
+    width: 25px;
+    height: 25px;
+}
+
+#addShopCar{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: cornflowerblue;
+    color: papayawhip;
+    margin-left: 15%;
+}
+
+.janeshop{
+    height: auto;
+}
